@@ -1,0 +1,46 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3em;
+  color: #fff;
+
+}
+body{
+  background-image: url("images/mainImage.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mainDiv {
+  height: 100%;
+  position: relative;
+}
+.forget{
+  color: red;
+  font-size: 0.6em;
+  text-decoration: underline;
+}
+.container{
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.imageBmargen{
+  margin-bottom: 2em;
+}
+
+.row{
+  text-align: center;
+}
+.backDiv{
+  background-color: #ffffff80;
+  padding: 1em 0;
+  border-radius: 8px;
+}
+.form-control{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
